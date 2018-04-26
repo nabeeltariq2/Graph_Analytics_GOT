@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+ 
+
+```{r}
+
+#reading in the data
+df = read.csv("a.csv")
+
+
+#transforming and factorizing
+df$closeness = log(df$closeness)
+df$degree = log(df$degree)
+df$betweenness = log(df$betweenness)
+df$eigen = log(df$eigen)
+df$coreness = log(df$coreness)
+df$min = log(df$min)
+df$Allegiances = as.factor(df$Allegiances)
+
+
+
+```
+
+
+modelling screen times on dead characters
+
+```{r}
+#modelling screen times on dead characters
+df_dead <- subset(df, Book.of.Death != "not_dead")
+
+# View(df_dead)
+
+df_dead_reg = subset(df_dead, select = -c(Id, Name, Book.of.Death, Allegiances))
+
+
+model_dead = lm(min ~. , data = df_dead_reg)
+
+summary(model_dead)
+plot(model_dead)
+
+```
+
+
+modelling screen times on alive characters
+
+```{r}
+
+#modelling screen times on alive characters
+
+df_alive = subset(df, Book.of.Death == "not_dead")
+
+df_alive_reg = subset(df_alive, select = -c(Id, Name, Book.of.Death, Allegiances))
+
+model_alive = lm(min ~. , data = df_alive_reg)
+
+summary(model_alive)
+plot(model_alive)
+
+```
+

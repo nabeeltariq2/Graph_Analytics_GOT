@@ -1,0 +1,292 @@
+---
+title: "Binomial modelling over time"
+---
+
+
+```{r}
+
+library(igraph)
+
+
+# setwd("D:\\MSBA\\CourseWork\\Social Network Analytics\\SNA Project\\Data\\asoiaf-master\\data")
+
+
+```
+
+
+Book 1
+
+```{r}
+
+# for book 1..........................................................................
+edges_book_1 = read.csv("asoiaf-book1-edges.csv")
+agg1 = aggregate(weight ~ Source, edges_book_1, sum)
+top_50_book_1 = head(agg1[order(agg1$weight, decreasing= T),], n = 90)
+edges_book_1 <- edges_book_1[edges_book_1$Source %in% top_50_book_1$Source, ]
+edges_book_1 <- edges_book_1[edges_book_1$Target %in% top_50_book_1$Source, ]
+
+char_death_stats = read.csv("character-deaths.csv")
+nodes_book_1 = read.csv("asoiaf-book1-nodes.csv")
+nodes_book_1 = merge(nodes_book_1,char_death_stats, by.x = "Label", by.y = "Name")
+nodes_book_1 = subset(nodes_book_1, select = -c(alive_book2,
+                                                alive_book3, alive_book45))
+nodes_book_1 <- nodes_book_1[nodes_book_1$Id %in% top_50_book_1$Source, ]
+nodes_book_1$book = 1
+
+
+#setting up a graph dataframe and getting network statistics
+g1 = graph.data.frame(edges_book_1, directed = FALSE)
+btw1= betweenness(g1, directed = FALSE)
+cls1= closeness(g1)
+evcs1 = evcent(g1, directed =  FALSE)
+burts1= constraint(g1)
+core1 = coreness(g1, mode = 'all')
+
+
+m1 = merge(as.data.frame(btw1), as.data.frame(cls1), by=0)
+m1 = merge(m1, as.data.frame(burts1), by.x="Row.names", by.y = 0)
+m1 = merge(m1, as.data.frame(core1), by.x="Row.names", by.y = 0)
+m1 = merge(m1, as.data.frame(evcs1$vector), by.x="Row.names", by.y = 0)
+nodes_book_1 = merge(nodes_book_1, m1, by.x = "Id", by.y = "Row.names")
+
+#bulding a model to predict death in book 1
+
+nodes_book_1 = subset(nodes_book_1, select = -c(Id,Label,Allegiances,book))
+nodes_book_1$Nobility = as.factor(nodes_book_1$Nobility)
+nodes_book_1$Gender = as.factor(nodes_book_1$Gender)
+
+# View(nodes_book_1)
+
+
+model_book1 <- glm(alive_book1 ~ ., family=binomial,data=nodes_book_1)
+summary(model_book1)
+# plot(model_book1)
+
+```
+
+Book 2
+
+```{r}
+
+
+
+# for book 2
+edges_book_2 = read.csv("asoiaf-book2-edges.csv")
+agg2 = aggregate(weight ~ Source, edges_book_2, sum)
+top_50_book_2 = head(agg2[order(agg2$weight, decreasing= T),], n = 90)
+edges_book_2 <- edges_book_2[edges_book_2$Source %in% top_50_book_2$Source, ]
+edges_book_2 <- edges_book_2[edges_book_2$Target %in% top_50_book_2$Source, ]
+
+
+char_death_stats = read.csv("character-deaths.csv")
+nodes_book_2 = read.csv("asoiaf-book2-nodes.csv")
+nodes_book_2 = merge(nodes_book_2,char_death_stats, by.x = "Label", by.y = "Name")
+nodes_book_2 = subset(nodes_book_2, select = -c(alive_book1,
+                                                alive_book3, alive_book45))
+nodes_book_2 <- nodes_book_2[nodes_book_2$Id %in% top_50_book_2$Source, ]
+nodes_book_2$book = 2
+
+
+
+
+#setting up a graph dataframe and getting network statistics
+g2 = graph.data.frame(edges_book_2, directed = FALSE)
+btw2= betweenness(g2, directed = FALSE)
+cls2= closeness(g2)
+evcs2 = evcent(g2, directed =  FALSE)
+burts2= constraint(g2)
+core2 = coreness(g2, mode = 'all')
+
+
+m2 = merge(as.data.frame(btw2), as.data.frame(cls2), by=0)
+m2 = merge(m2, as.data.frame(burts2), by.x="Row.names", by.y = 0)
+m2 = merge(m2, as.data.frame(core2), by.x="Row.names", by.y = 0)
+m2 = merge(m2, as.data.frame(evcs2$vector), by.x="Row.names", by.y = 0)
+nodes_book_2 = merge(nodes_book_2, m2, by.x = "Id", by.y = "Row.names")
+
+#bulding a model to predict death in book 2
+
+nodes_book_2 = subset(nodes_book_2, select = -c(Id,Label,Allegiances,book))
+nodes_book_2$Nobility = as.factor(nodes_book_2$Nobility)
+nodes_book_2$Gender = as.factor(nodes_book_2$Gender)
+
+model_book2 <- glm(alive_book2 ~ ., family=binomial,data=nodes_book_2)
+summary(model_book2)
+
+
+
+```
+
+Book 3
+
+```{r}
+
+# for book 3
+edges_book_3 = read.csv("asoiaf-book3-edges.csv")
+agg3 = aggregate(weight ~ Source, edges_book_3, sum)
+top_50_book_3 = head(agg3[order(agg3$weight, decreasing= T),], n = 90)
+edges_book_3 <- edges_book_3[edges_book_3$Source %in% top_50_book_3$Source, ]
+edges_book_3 <- edges_book_3[edges_book_3$Target %in% top_50_book_3$Source, ]
+
+
+char_death_stats = read.csv("character-deaths.csv")
+nodes_book_3 = read.csv("asoiaf-book3-nodes.csv")
+nodes_book_3 = merge(nodes_book_3,char_death_stats, by.x = "Label", by.y = "Name")
+nodes_book_3 = subset(nodes_book_3, select = -c(alive_book1,
+                                                alive_book2, alive_book45))
+nodes_book_3 <- nodes_book_3[nodes_book_3$Id %in% top_50_book_3$Source, ]
+nodes_book_3$book = 3
+
+
+
+#setting up a graph dataframe and getting network statistics
+g3 = graph.data.frame(edges_book_3, directed = FALSE)
+btw3= betweenness(g3, directed = FALSE)
+cls3= closeness(g3)
+evcs3 = evcent(g3, directed =  FALSE)
+burts3= constraint(g3)
+core3 = coreness(g3, mode = 'all')
+
+
+m3 = merge(as.data.frame(btw3), as.data.frame(cls3), by=0)
+m3 = merge(m3, as.data.frame(burts3), by.x="Row.names", by.y = 0)
+m3 = merge(m3, as.data.frame(core3), by.x="Row.names", by.y = 0)
+m3 = merge(m3, as.data.frame(evcs3$vector), by.x="Row.names", by.y = 0)
+nodes_book_3 = merge(nodes_book_3, m3, by.x = "Id", by.y = "Row.names")
+
+#bulding a model to predict death in book 2
+
+nodes_book_3 = subset(nodes_book_3, select = -c(Id,Label,Allegiances,book))
+nodes_book_3$Nobility = as.factor(nodes_book_3$Nobility)
+nodes_book_3$Gender = as.factor(nodes_book_3$Gender)
+
+model_book3 <- glm(alive_book3 ~ ., family=binomial,data=nodes_book_3)
+summary(model_book3)
+
+```
+
+Book 45
+
+```{r}
+
+# for book 4 & 5
+edges_book_45 = read.csv("asoiaf-book45-edges.csv")
+agg45 = aggregate(weight ~ Source, edges_book_45, sum)
+top_50_book_45 = head(agg45[order(agg45$weight, decreasing= T),], n = 90)
+edges_book_45 <- edges_book_45[edges_book_45$Source %in% top_50_book_45$Source, ]
+edges_book_45 <- edges_book_45[edges_book_45$Target %in% top_50_book_45$Source, ]
+
+
+char_death_stats = read.csv("character-deaths.csv")
+nodes_book_45 = read.csv("asoiaf-book45-nodes.csv")
+nodes_book_45 = merge(nodes_book_45,char_death_stats, by.x = "Label", by.y = "Name")
+nodes_book_45 = subset(nodes_book_45, select = -c(alive_book1,
+                                                alive_book2, alive_book3))
+nodes_book_45 <- nodes_book_45[nodes_book_45$Id %in% top_50_book_45$Source, ]
+nodes_book_45$book = 45
+
+
+
+
+#setting up a graph dataframe and getting network statistics
+g45 = graph.data.frame(edges_book_45, directed = FALSE)
+btw45= betweenness(g45, directed = FALSE)
+cls45= closeness(g45)
+evcs45 = evcent(g45, directed =  FALSE)
+burts45= constraint(g45)
+core45 = coreness(g45, mode = 'all')
+
+
+m45 = merge(as.data.frame(btw45), as.data.frame(cls45), by=0)
+m45 = merge(m45, as.data.frame(burts45), by.x="Row.names", by.y = 0)
+m45 = merge(m45, as.data.frame(core45), by.x="Row.names", by.y = 0)
+m45 = merge(m45, as.data.frame(evcs45$vector), by.x="Row.names", by.y = 0)
+nodes_book_45 = merge(nodes_book_45, m45, by.x = "Id", by.y = "Row.names")
+
+#bulding a model to predict death in book 2
+
+nodes_book_45 = subset(nodes_book_45, select = -c(Id,Label,Allegiances,book))
+nodes_book_45$Nobility = as.factor(nodes_book_45$Nobility)
+nodes_book_45$Gender = as.factor(nodes_book_45$Gender)
+
+model_book45 <- glm(alive_book45 ~ ., family=binomial,data=nodes_book_45)
+summary(model_book45)
+
+
+```
+For ALL books
+
+```{r}
+
+#for all books
+
+edges_book_all = read.csv("asoiaf-all-edges.csv")
+edges_book_all = subset(edges_book_all, select = -c(id))
+# View(edges_book_all)
+
+aggall = aggregate(weight ~ Source, edges_book_all, sum)
+top_50_book_all = head(aggall[order(aggall$weight, decreasing= T),], n = 90)
+edges_book_all <- edges_book_all[edges_book_all$Source %in% top_50_book_all$Source, ]
+edges_book_all <- edges_book_all[edges_book_all$Target %in% top_50_book_all$Source, ]
+
+char_death_stats = read.csv("character-deaths_all.csv")
+nodes_book_all = read.csv("asoiaf-all-nodes.csv")
+nodes_book_all = merge(nodes_book_all,char_death_stats, by.x = "Label", by.y = "Name")
+nodes_book_all <- nodes_book_all[nodes_book_all$Id %in% top_50_book_all$Source, ]
+nodes_book_all$book = 'all'
+
+
+gall = graph.data.frame(edges_book_all, directed = FALSE)
+btwall= betweenness(gall, directed = FALSE)
+clsall= closeness(gall)
+evcsall = evcent(gall, directed =  FALSE)
+burtsall= constraint(gall)
+coreall = coreness(gall, mode = 'all')
+
+
+mall = merge(as.data.frame(btwall), as.data.frame(clsall), by=0)
+mall = merge(mall, as.data.frame(burtsall), by.x="Row.names", by.y = 0)
+mall = merge(mall, as.data.frame(coreall), by.x="Row.names", by.y = 0)
+mall = merge(mall, as.data.frame(evcsall$vector), by.x="Row.names", by.y = 0)
+nodes_book_all = merge(nodes_book_all, mall, by.x = "Id", by.y = "Row.names")
+
+#bulding a model to predict death in book 2
+
+nodes_book_all = subset(nodes_book_all, select = -c(Id,Label,Allegiances,book))
+nodes_book_all$Nobility = as.factor(nodes_book_all$Nobility)
+nodes_book_all$Gender = as.factor(nodes_book_all$Gender)
+
+model_bookall <- glm(alive_all ~ ., family=binomial,data=nodes_book_all)
+summary(model_bookall)
+
+# View(nodes_book_all)
+
+
+```
+analyzing coefficients
+
+```{r}
+
+cof1 = as.data.frame(model_book1$coefficients)
+cof2 = as.data.frame(model_book2$coefficients)
+cof3 = as.data.frame(model_book3$coefficients)
+cof45 = as.data.frame(model_book45$coefficients)
+cofall = as.data.frame(model_bookall$coefficients)
+
+print(cof1)
+print(cof2)
+print(cof3)
+print(cof45)
+print(cofall)
+
+
+```
+
+```{r}
+out_edges = rbind(edges_book_1,edges_book_2, edges_book_3, edges_book_45, edges_book_all)
+
+write.csv(out_edges,"got_edges.csv")
+
+```
+
+

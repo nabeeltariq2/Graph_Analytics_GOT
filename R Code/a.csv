@@ -1,0 +1,72 @@
+Id,closeness,degree,betweenness,eigen,coreness,min,Name,Allegiances,Book.of.Death
+Tyrion-Lannister,0.000599161,122,51189.9428,1,13,337,Tyrion Lannister,Lannister,not_dead
+Jon-Snow,0.000560224,114,60635.83377,0.573146692,12,338.25,Jon Snow,Night's Watch,not_dead
+Jaime-Lannister,0.000568505,101,31825.98727,0.899759274,13,199,Jaime Lannister,Lannister,not_dead
+Cersei-Lannister,0.000571755,97,27996.39709,0.937260262,13,236,Cersei Lannister,House Lannister,not_dead
+Arya-Stark,0.000542594,84,27534.99765,0.686207958,13,224.25,Arya Stark,Stark,not_dead
+Sansa-Stark,0.000544662,75,15367.60421,0.81827598,13,238.5,Sansa Stark,Stark,not_dead
+Daenerys-Targaryen,0.00048216,73,37374.50312,0.250612989,9,276,Daenerys Targaryen,House Targaryen,not_dead
+Theon-Greyjoy,0.000532481,66,35122.68445,0.4073499,12,136.25,Theon Greyjoy,House Greyjoy,not_dead
+Bran-Stark,0.00052687,54,14174.64167,0.487105134,12,99.25,Bran Stark,House Stark,not_dead
+Petyr-Baelish,0.000505817,47,8173.981409,0.608050649,13,119,Petyr Baelish,None,not_dead
+Brienne-of-Tarth,0.000483559,45,10179.18938,0.46234396,13,97.5,Brienne of Tarth,Stark,not_dead
+Samwell-Tarly,0.000443656,44,13087.35587,0.17697038,8,143.75,Samwell Tarly,Night's Watch,not_dead
+Barristan-Selmy,0.000486618,41,14376.13016,0.389943672,12,37.25,Barristan Selmy,Targaryen,not_dead
+Mance-Rayder,0.000465333,33,4293.968658,0.202527854,8,21,Mance Rayder,Wildling,not_dead
+Davos-Seaworth,0.000443656,33,7526.411338,0.174105473,7,110,Davos Seaworth,Baratheon,not_dead
+Margaery-Tyrell,0.000455789,30,1434.763104,0.365249952,12,78,Margaery Tyrell,House Tyrell,not_dead
+Roose-Bolton,0.000493097,28,1753.615171,0.358556853,12,30.25,Roose Bolton,Stark,not_dead
+Loras-Tyrell,0.000480538,28,455.349468,0.481376615,13,32,Loras Tyrell,Tyrell,not_dead
+Jorah-Mormont,0.000446828,26,3417.093467,0.126062571,8,142.5,Jorah Mormont,Targaryen,not_dead
+Bronn,0.000455789,25,915.2991598,0.295289241,10,74.75,Bronn,Lannister,not_dead
+Edmure-Tully,0.000441891,24,1092.20667,0.26088649,10,17.75,Edmure Tully,House Tully,not_dead
+Mace-Tyrell,0.000480538,23,1856.236556,0.347461708,12,11.5,Mace Tyrell,House Tyrell,not_dead
+Melisandre,0.000447027,23,2048.457395,0.165828427,8,68.75,Melisandre,Baratheon,not_dead
+Myrcella-Baratheon,0.000474383,22,6373.17791,0.299568641,11,11.75,Myrcella Baratheon,Lannister,not_dead
+Meryn-Trant,0.000463177,21,296.8611257,0.342551067,12,16,Meryn Trant,Lannister,not_dead
+Gendry,0.000429923,20,3934.637105,0.159162662,8,39.25,Gendry,None,not_dead
+Eddison-Tollett,0.000401929,20,986.9119719,0.074448225,8,29.25,Eddison Tollett,Night's Watch,not_dead
+Brynden-Tully,0.00046729,19,702.8859695,0.238588354,10,16,Brynden Tully,House Tully,not_dead
+Walder-Frey,0.000452899,19,2093.839532,0.218438169,10,15.75,Walder Frey,None,not_dead
+Daario-Naharis,0.000375799,19,1725.855124,0.044493197,8,46,Daario Naharis,Targaryen,not_dead
+Qyburn,0.000444642,18,536.8367556,0.226562239,10,24.75,Qyburn,Lannister,not_dead
+Rickon-Stark,0.000492126,17,625.2435571,0.251783031,10,12.5,Rickon Stark,House Stark,not_dead
+Pypar,0.000396511,16,73.99488342,0.062882158,8,12,Pypar,Night's Watch,not_dead
+Alliser-Thorne,0.000456621,15,699.9892633,0.158040945,8,26,Alliser Thorne,Night's Watch,not_dead
+Grenn,0.000398406,15,149.8164703,0.057225193,8,21.25,Grenn,Night's Watch,not_dead
+Irri,0.000357782,15,313.3664379,0.033095581,8,10,Irri,House Targaryen,not_dead
+Gilly,0.00039968,14,355.1647739,0.058159116,8,55.5,Gilly,Wildling,not_dead
+Shireen-Baratheon,0.000430108,13,1028.679412,0.11561814,7,18.25,Shireen Baratheon,Baratheon,not_dead
+Lancel-Lannister,0.000443656,12,164.1963342,0.232033509,9,19,Lancel Lannister,Lannister,not_dead
+Podrick-Payne,0.000423729,11,1070.096438,0.141978844,6,44.5,Podrick Payne,Lannister,not_dead
+Hodor,0.000396197,11,67.37888793,0.087569988,8,29.5,Hodor,House Stark,not_dead
+Hot-Pie,0.000384911,11,959.5332102,0.055693261,6,14.75,Hot Pie,None,not_dead
+Meera-Reed,0.00038432,11,95.04365083,0.052271409,8,29.25,Meera Reed,Stark,not_dead
+Jojen-Reed,0.00038506,10,85.7207165,0.052684279,8,19,Jojen Reed,Stark,not_dead
+Osha,0.000405022,9,69.3090947,0.08048406,8,29.75,Osha,House Stark,not_dead
+Missandei,0.000373552,9,30.39831133,0.0344747,8,62.25,Missandei,House Targaryen,not_dead
+Tyene-Sand,0.000346981,9,844.7529104,0.020554681,5,11.5,Tyene Sand,House Martell,not_dead
+High-Sparrow,0.000396825,8,11.88951868,0.087347644,6,37.5,High Sparrow,None,not_dead
+Grey-Worm,0.000370782,8,10.29044614,0.033397131,8,42.75,Grey Worm,Targaryen,not_dead
+Ellaria-Sand,0.000420345,6,312.0780685,0.087480698,6,24.25,Ellaria Sand,Martell,not_dead
+Xaro-Xhoan-Daxos,0.000364431,3,14.12382294,0.022749845,2,10.5,Xaro Xhoan Daxos,None,not_dead
+Janos-Slynt,0.000480307,23,2266.9684,0.324932017,11,14.25,Janos Slynt,None,5
+Sandor-Clegane,0.000480769,36,2786.293678,0.488362205,13,95.25,Sandor Clegane,None,4
+Gregor-Clegane,0.000477783,33,1731.427412,0.488470808,13,24.25,Gregor Clegane,Lannister,4
+Beric-Dondarrion,0.000451467,18,675.3459815,0.26698635,10,25,Beric Dondarrion,None,4
+Robb-Stark,0.000558659,74,20978.43254,0.688466042,13,77.75,Robb Stark,House Stark,3
+Joffrey-Baratheon,0.000545852,69,10023.52911,0.852192473,13,70.25,Joffrey Baratheon,House Lannister,3
+Tywin-Lannister,0.000517331,48,6523.717361,0.635159805,13,78.25,Tywin Lannister,House Lannister,3
+Jeor-Mormont,0.000467071,28,5450.116868,0.168084709,8,21,Jeor Mormont,Night's Watch,3
+Oberyn-Martell,0.000447828,20,3094.080631,0.261514959,10,28.5,Oberyn Martell,House Martell,3
+Shae,0.000441306,13,260.7271133,0.195703508,7,47.25,Shae,Lannister,3
+Ygritte,0.000394011,13,838.014251,0.043776144,6,51,Ygritte,Wildling,3
+Rast,0.000392465,6,7.347420635,0.036136064,5,12.75,Rast,Night's Watch,3
+Renly-Baratheon,0.000500751,38,5972.535299,0.518970166,13,24,Renly Baratheon,House Baratheon,2
+Rodrik-Cassel,0.000507099,30,3491.346696,0.372096362,12,12.75,Rodrik Cassel,Stark,2
+Yoren,0.000466636,18,1530.268947,0.193115967,8,12,Yoren,Night's Watch,2
+Doreah,0.000355619,6,0.652272727,0.02149882,6,12.5,Doreah,House Targaryen,2
+Eddard-Stark,0.000573394,74,24849.12408,0.761875057,13,100,Eddard Stark,House Stark,1
+Robert-Baratheon,0.000577701,65,24689.83257,0.772671527,13,30.5,Robert Baratheon,House Baratheon,1
+Benjen-Stark,0.000490196,14,1791.269028,0.223834009,9,12.75,Benjen Stark,Night's Watch,1
+Viserys-Targaryen,0.000440723,14,775.5447875,0.120106082,8,20.5,Viserys Targaryen,House Targaryen,1

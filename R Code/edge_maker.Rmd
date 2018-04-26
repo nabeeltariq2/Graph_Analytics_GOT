@@ -1,0 +1,70 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+
+
+library(igraph)
+
+
+# setwd("D:\\MSBA\\CourseWork\\Social Network Analytics\\SNA Project\\Data\\asoiaf-master\\data")
+
+
+
+
+```
+
+
+
+```{r}
+edges_book_1 = read.csv("asoiaf-book1-edges.csv")
+agg1 = aggregate(weight ~ Source, edges_book_1, sum)
+top_50_book_1 = head(agg1[order(agg1$weight, decreasing= T),], n = 90)
+edges_book_1 <- edges_book_1[edges_book_1$Source %in% top_50_book_1$Source, ]
+edges_book_1 <- edges_book_1[edges_book_1$Target %in% top_50_book_1$Source, ]
+
+
+# View(edges_book_1)
+
+# for book 2
+edges_book_2 = read.csv("asoiaf-book2-edges.csv")
+agg2 = aggregate(weight ~ Source, edges_book_2, sum)
+top_50_book_2 = head(agg2[order(agg2$weight, decreasing= T),], n = 90)
+edges_book_2 <- edges_book_2[edges_book_2$Source %in% top_50_book_2$Source, ]
+edges_book_2 <- edges_book_2[edges_book_2$Target %in% top_50_book_2$Source, ]
+
+# for book 3
+edges_book_3 = read.csv("asoiaf-book3-edges.csv")
+agg3 = aggregate(weight ~ Source, edges_book_3, sum)
+top_50_book_3 = head(agg3[order(agg3$weight, decreasing= T),], n = 90)
+edges_book_3 <- edges_book_3[edges_book_3$Source %in% top_50_book_3$Source, ]
+edges_book_3 <- edges_book_3[edges_book_3$Target %in% top_50_book_3$Source, ]
+
+
+# for book 4 & 5
+edges_book_45 = read.csv("asoiaf-book45-edges.csv")
+agg45 = aggregate(weight ~ Source, edges_book_45, sum)
+top_50_book_45 = head(agg45[order(agg45$weight, decreasing= T),], n = 90)
+edges_book_45 <- edges_book_45[edges_book_45$Source %in% top_50_book_45$Source, ]
+edges_book_45 <- edges_book_45[edges_book_45$Target %in% top_50_book_45$Source, ]
+
+edges_book_all = read.csv("asoiaf-all-edges.csv")
+edges_book_all = subset(edges_book_all, select = -c(id))
+# View(edges_book_all)
+
+#for all books
+aggall = aggregate(weight ~ Source, edges_book_all, sum)
+top_50_book_all = head(aggall[order(aggall$weight, decreasing= T),], n = 90)
+edges_book_all <- edges_book_all[edges_book_all$Source %in% top_50_book_all$Source, ]
+edges_book_all <- edges_book_all[edges_book_all$Target %in% top_50_book_all$Source, ]
+
+
+out_edges = rbind(edges_book_1,edges_book_2, edges_book_3, edges_book_45, edges_book_all)
+
+# write.csv(edges_book_1,"got_edges_book1.csv")
+
+
+```
+

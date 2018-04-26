@@ -1,0 +1,918 @@
+Name,Allegiances,Gender,Nobility,alive_all
+Benjen Stark,Night's Watch,1,1,0
+Cayn,House Stark,1,1,0
+Chiggen,Lannister,1,1,0
+Cohollo,None,1,1,0
+Conn,Lannister,1,1,0
+Cressen,Baratheon,1,1,0
+Daryn Hornwood,Stark,1,1,0
+Desmond,House Stark,1,1,0
+Drogo,Targaryen,1,1,0
+Eddard Karstark,Stark,1,1,0
+Eddard Stark,House Stark,1,1,0
+Eroeh,Targaryen,1,1,0
+Fogo,None,1,1,0
+Gared,Night's Watch,1,1,0
+Gladden Wylde,Stark,1,1,0
+Haggo,None,1,1,0
+Hali,Wildling,0,0,0
+Halys Hornwood,Stark,1,1,0
+Heward,House Stark,1,1,0
+Hugh,House Arryn,1,1,0
+Hullen,House Stark,1,1,0
+Jory Cassel,Stark,1,1,0
+Jyck,House Lannister,1,1,0
+Kurleket,None,1,1,0
+Lharys,Stark,1,1,0
+Masha Heddle,Tully,0,0,0
+Mirri Maz Duur,None,0,0,0
+Mohor,None,1,1,0
+Mordane,House Stark,0,0,0
+Morrec,House Lannister,1,1,0
+Mycah,Stark,1,1,0
+Ogo,None,1,1,0
+Qotho,None,1,1,0
+Quaro,Targaryen,1,1,0
+Raymun Darry,Targaryen,1,1,0
+Robert Baratheon,House Baratheon,1,1,0
+Stiv,Wildling,1,1,0
+Syrio Forel,House Stark,1,1,0
+Tomard,House Stark,1,1,0
+Torrhen Karstark,Stark,1,1,0
+Tregar,House Lannister,1,1,0
+Ulf son of Umar,Lannister,1,1,0
+Vardis Egen,Arryn,1,1,0
+Vayon Poole,Stark,1,1,0
+Viserys Targaryen,House Targaryen,1,1,0
+Wallen,Wildling,1,1,0
+Waymar Royce,Night's Watch,1,1,0
+Will,Night's Watch,1,1,0
+Wyl (guard),House Stark,1,1,0
+Aggar,House Greyjoy,1,1,0
+Alebelly,House Stark,1,1,0
+Allard Seaworth,Baratheon,1,1,0
+Amory Lorch,House Lannister,1,1,0
+Aron Santagar,Lannister,1,1,0
+Barra,None,0,0,0
+Benfred Tallhart,Stark,1,1,0
+Bryan Fossoway,Baratheon,1,1,0
+Bryce Caron,Baratheon,1,1,0
+Burton Crakehall,Lannister,1,1,0
+Chayle,Stark,1,1,0
+Chiswyck,None,1,1,0
+Cley Cerwyn,Stark,1,1,0
+Cortnay Penrose,Baratheon,1,1,0
+Dalbridge,Night's Watch,1,1,0
+Dale Seaworth,Baratheon,1,1,0
+Dobber,None,1,1,0
+Donella Hornwood,Stark,0,0,0
+Doreah,House Targaryen,0,0,0
+Drennan,House Greyjoy,1,1,0
+Dykk Harlaw,Greyjoy,1,1,0
+Ebben,Night's Watch,1,1,0
+Emmon Cuy,Baratheon,1,1,0
+Farlen,House Stark,1,1,0
+Gelmarr,House Greyjoy,1,1,0
+Gerren,None,1,1,0
+Gevin Harlaw,Greyjoy,1,1,0
+Guyard Morrigen,Baratheon,1,1,0
+Gynir,House Greyjoy,1,1,0
+Harra,None,0,0,0
+Jacelyn Bywater,Lannister,0,0,0
+Kenned,House Greyjoy,1,1,0
+Koss,Night's Watch,1,1,0
+Kromm,House Greyjoy,1,1,0
+Kurz,Night's Watch,1,1,0
+Leo Lefford,Lannister,1,1,0
+Leobald Tallhart,Stark,1,1,0
+Lommy,Night's Watch,1,1,0
+Lorren,Greyjoy,1,1,0
+Lucan,None,1,1,0
+Luwin,House Stark,1,1,0
+Mandon Moore,Baratheon,1,1,0
+Maric Seaworth,House Baratheon,1,1,0
+Matthos Seaworth,Baratheon,1,1,0
+Medger Cerwyn,Stark,1,1,0
+Mikken,House Stark,1,1,0
+Myles,House Tully,1,1,0
+Orell,Wildling,1,1,0
+Porther,House Stark,1,1,0
+Poul Pemford,House Tully,1,1,0
+Poxy Tym,House Stark,1,1,0
+Praed,None,1,1,0
+Preston Greenfield,Baratheon,1,1,0
+Qhorin Halfhand,Night's Watch,1,1,0
+Qyle,Night's Watch,1,1,0
+Red Rolfe,House Greyjoy,1,1,0
+Reek,None,1,1,0
+Renly Baratheon,House Baratheon,1,1,0
+Robar Royce,Baratheon,1,1,0
+Rodrik Cassel,Stark,1,1,0
+Rupert Brax,House Lannister,1,1,0
+Squint,House Greyjoy,1,1,0
+Stevron Frey,Stark,1,1,0
+Todric,Greyjoy,1,1,0
+Tothmure,Lannister,1,1,0
+Tymor,House Greyjoy,1,1,0
+Tyrek Lannister,House Lannister,1,1,0
+Ulf the Ill,House Greyjoy,1,1,0
+Urreg,Night's Watch,1,1,0
+Weese,Lannister,1,1,0
+Werlag,House Greyjoy,1,1,0
+Woth,Night's Watch,1,1,0
+Yoren,Night's Watch,1,1,0
+Aegon Frey (Jinglebell),None,1,1,0
+Alyn,House Stark,1,1,0
+Anvil Ryn,None,1,1,0
+Bannen,Night's Watch,1,1,0
+Becca the Baker,None,0,0,0
+Brown Bernarr,Night's Watch,1,1,0
+Byam Flint,Night's Watch,1,1,0
+Catelyn Tully,House Stark,0,0,0
+Chett,Night's Watch,1,1,0
+Cleos Frey,None,1,1,0
+Craster,None,1,1,0
+Dacey Mormont,Stark,0,0,0
+Dalla,Wildling,0,0,0
+Del,Wildling,1,1,0
+Delp,House Tully,1,1,0
+Dick Follard,Night's Watch,1,1,0
+Donal Noye,Night's Watch,1,1,0
+Donnel Locke,Stark,1,1,0
+Dontos Hollard,None,1,1,0
+Dornish Dilly,Night's Watch,1,1,0
+Dudley,Stark,1,1,0
+Easy,Night's Watch,1,1,0
+Elwood,House Tully,1,1,0
+Endrew Tarth,Night's Watch,1,1,0
+Eon Hunter,Arryn,1,1,0
+Fletcher Will,None,1,1,0
+Garse Goodbrook,None,1,1,0
+Garth of Oldtown,Night's Watch,1,1,0
+Grazdan,None,1,1,0
+Grazdan mo Ullhor,None,1,1,0
+Guncer Sunglass,Baratheon,1,1,0
+Hake,Night's Watch,1,1,0
+Harma,Wildling,0,0,0
+Helman Tallhart,Stark,1,1,0
+Hoster Tully,House Tully,1,1,0
+Iggo,None,1,1,0
+Imry Florent,Baratheon,1,1,0
+Jarl,Wildling,1,1,0
+Jate Blackberry,House Baratheon,1,1,0
+Jeor Mormont,Night's Watch,1,1,0
+Joffrey Baratheon,House Lannister,1,1,0
+Jon Umber (Smalljon),Stark,1,1,0
+Kraznys mo Nakloz,None,1,1,0
+Kyle (Banners),None,1,1,0
+Lark,Night's Watch,1,1,0
+Lucas Blackwood,Tully,1,1,0
+Lyman Darry,Tully,1,1,0
+Lysa Tully,House Arryn,0,0,0
+Maerie (Goodwife),None,0,0,0
+Maerie (Whore),None,0,0,0
+Mag Mar Tun Doh Weg,Wildling,1,1,0
+Maslyn,Night's Watch,1,1,0
+Mero,None,1,1,0
+Merrett Frey,None,1,1,0
+Monford Velaryon,Baratheon,1,1,0
+Mudge (miller),None,1,1,0
+Nolla,None,0,0,0
+Oberyn Martell,House Martell,1,1,0
+Old Henly,Night's Watch,1,1,0
+Ottyn Wythers,Night's Watch,1,1,0
+Owen Norrey,Tully,1,1,0
+Oznak zo Pahl,None,1,1,0
+Pate (Lancewood),None,1,1,0
+Petyr Frey,None,1,1,0
+Polliver,None,1,1,0
+Prendahl na Ghezn,None,1,1,0
+Quort,Wildling,1,1,0
+Randa,None,0,0,0
+Rast,Night's Watch,1,1,0
+Raynald Westerling,Stark,1,1,0
+Red Alyn,Night's Watch,1,1,0
+Rickard Karstark,Stark,1,1,0
+Robb Stark,House Stark,1,1,0
+Robin Flint,Stark,1,1,0
+Rolley,Night's Watch,1,1,0
+Sallor,None,1,1,0
+Shae,Lannister,0,0,0
+Small Paul,Night's Watch,1,1,0
+Softfoot,Night's Watch,1,1,0
+Spotted Pate of Maidenpool,Night's Watch,1,1,0
+Stone Thumbs,Wildling,1,1,0
+Styr,Wildling,1,1,0
+Symon Silver Tongue,Lannister,1,1,0
+Thoren Smallwood,Night's Watch,1,1,0
+Tickler,Lannister,1,1,0
+Tion Frey,Lannister,0,0,0
+Tytos Frey,None,1,1,0
+Tywin Lannister,House Lannister,1,1,0
+Utt,None,1,1,0
+Vargo Hoat,None,1,1,0
+Watt,Night's Watch,1,1,0
+Wendel Manderly,Stark,1,1,0
+Wilbert,Stark,1,1,0
+Willem Lannister,House Lannister,1,1,0
+Wyl the Whittler,None,1,1,0
+Ygritte,Wildling,0,0,0
+Young Henly,Night's Watch,1,1,0
+Aemon Targaryen (son of Maekar I),Night's Watch,1,1,0
+Alester Florent,Baratheon,1,1,0
+Arys Oakheart,Lannister,1,1,0
+Bennet,None,1,1,0
+Beric Dondarrion,None,1,1,0
+Biter,None,1,1,0
+Cragorn,House Greyjoy,1,1,0
+Dareon,Night's Watch,1,1,0
+Dick Crabb,None,1,1,0
+Gregor Clegane,Lannister,1,1,0
+Gyles Rosby,Lannister,1,1,0
+Hyle Hunt,None,1,1,0
+Jate,House Lannister,1,1,0
+Marillion,Arryn,1,1,0
+Oppo,None,1,1,0
+Pate (novice),None,1,1,0
+Pyg,None,1,1,0
+Rorge,None,1,1,0
+Ryman Frey,None,1,1,0
+Sandor Clegane,None,1,1,0
+Sawane Botley,Greyjoy,1,1,0
+Senelle,House Lannister,0,0,0
+Shagwell,None,1,1,0
+Shyra Errol,Baratheon,0,0,0
+Tanda Stokeworth,Lannister,0,0,0
+Timeon,None,1,1,0
+Talbert Serry,Tyrell,1,1,0
+Adrack Humble,House Greyjoy,1,1,0
+Aenys Frey,None,0,0,0
+Alan of Rosby,Night's Watch,1,1,0
+Barsena,None,0,0,0
+Benfrey Frey,None,1,1,0
+Bryen Farring,Baratheon,1,1,0
+Clubfoot Karl,Night's Watch,1,1,0
+Dagon Codd,Greyjoy,1,1,0
+Dirk,Night's Watch,1,1,0
+Falyse Stokeworth,Lannister,0,0,0
+Frenya,Wildling,0,0,0
+Garth Greyfeather,Night's Watch,1,1,0
+Garth of Greenaway,Night's Watch,1,1,0
+Groleo,House Targaryen,1,1,0
+Grubbs,Night's Watch,1,1,0
+Hairy Hal,Night's Watch,1,1,0
+Hamish the Harper,None,1,1,0
+Harghaz,None,1,1,0
+Harrag Sharp,Greyjoy,1,1,0
+Harwood Fell,House Baratheon,1,1,0
+Hazzea,None,0,0,0
+Holly,Wildling,0,0,0
+Hubard Rambton,Baratheon,1,1,0
+Jack Bulwer,Night's Watch,1,1,0
+Janos Slynt,None,1,1,0
+Jared Frey,None,1,1,0
+Jaremy Rykker,Night's Watch,1,1,0
+Jarman Buckwell,Night's Watch,1,1,0
+Kerwin,House Tyrell,1,1,0
+Kevan Lannister,House Lannister,1,1,0
+Khrazz,None,1,1,0
+Kyra,House Stark,0,0,0
+Little Walder Frey,None,1,1,0
+Lord of Bones,Wildling,1,1,0
+Luton,None,1,1,0
+Mallador Locke,Night's Watch,1,1,0
+Mawney,Night's Watch,1,1,0
+Mossador,House Targaryen,1,1,0
+Muttering Bill,Night's Watch,1,1,0
+Myrtle,Wildling,0,0,0
+Nurse,None,1,1,0
+Ollo Lophand,Night's Watch,1,1,0
+Orphan Oss,Night's Watch,1,1,0
+Patrek of King's Mountain,Baratheon,1,1,0
+Pycelle,House Lannister,1,1,0
+Quentyn Martell,Martell,1,1,0
+Ralf Kenning,Greyjoy,1,1,0
+Rhaegar Frey,None,1,1,0
+Rolfe the Dwarf,House Greyjoy,1,1,0
+Rowan,Wildling,1,1,0
+Squirrel,Wildling,0,0,0
+Stalwart Shield,Targaryen,1,1,0
+Symond Frey,None,1,1,0
+Thistle,Wildling,0,0,0
+Varamyr,Wildling,1,1,0
+Willam Wells,Martell,1,1,0
+Willow Witch-eye,Wildling,0,0,0
+Yellow Dick,None,1,1,0
+Yurkhaz zo Yunzak,None,1,1,0
+Yezzan Zo Qaggaz,None,1,1,0
+Torwynd the Tame,Wildling,1,1,0
+Addam Marbrand,Lannister,1,1,1
+Aegon Targaryen,House Targaryen,1,1,1
+Aemon Costayne,Lannister,1,1,1
+Aemon Estermont,Baratheon,1,1,1
+Aeron Greyjoy,House Greyjoy,1,1,1
+Aethan,Night's Watch,1,1,1
+Aggo,House Targaryen,1,1,1
+Alayaya,None,0,0,1
+Albar Royce,Arryn,1,1,1
+Albett,Night's Watch,1,1,1
+Alerie Hightower,House Tyrell,0,0,1
+Alesander Staedmon,Baratheon,1,1,1
+Alia of Braavos,None,0,0,1
+Alla Tyrell,House Tyrell,0,0,1
+Alliser Thorne,Night's Watch,1,1,1
+Alyn Ambrose,Tyrell,1,1,1
+Alyn Estermont,Baratheon,1,1,1
+Alyn Stackspear,Lannister,1,1,1
+Alys Karstark,Stark,0,0,1
+Alysane Mormont,Stark,0,0,1
+Alyx Frey,None,1,1,1
+Ambrode,Greyjoy,1,1,1
+Andar Royce,Arryn,1,1,1
+Andrew Estermont,Baratheon,1,1,1
+Andrey Dalt,Martell,1,1,1
+Andrik,Greyjoy,1,1,1
+Anguy,None,1,1,1
+Antario Jast,Lannister,1,1,1
+Anya Waynwood,Arryn,0,0,1
+Archibald Yronwood,Martell,1,1,1
+Ardrian Celtigar,Baratheon,1,1,1
+Areo Hotah,House Martell,1,1,1
+Arianne Martell,House Martell,0,0,1
+Arneld,Lannister,1,1,1
+Arnolf Karstark,Stark,1,1,1
+Arron,Night's Watch,1,1,1
+Arron Qorgyle,Martell,1,1,1
+Arryk (Guard),House Tyrell,1,1,1
+Arson,Wildling,1,1,1
+Arthor Karstark,Stark,1,1,1
+Arwyn Frey,None,0,0,1
+Arwyn Oakheart,Tyrell,0,0,1
+Arya Stark,Stark,0,0,1
+Asha Greyjoy,House Greyjoy,0,0,1
+Aurane Waters,Lannister,1,1,1
+Axell Florent,Baratheon,1,1,1
+Azzak,None,1,1,1
+Ballabar,Lannister,1,1,1
+Balon Swann,Lannister,1,1,1
+Barbrey Dustin,Stark,0,0,1
+Barristan Selmy,Targaryen,1,1,1
+Barth (brewer),House Stark,1,1,1
+Bass,Night's Watch,1,1,1
+Bayard Norcross,Tyrell,1,1,1
+Bearded Ben,Night's Watch,1,1,1
+Becca,House Arryn,0,0,1
+Bedwyck,Night's Watch,1,1,1
+Belaquo,None,1,1,1
+Bella,None,0,0,1
+Bellegere Otherys (courtesan),None,0,0,1
+Bellonara Otherys,None,0,0,1
+Belwas,House Targaryen,1,1,1
+Ben,None,1,1,1
+Ben Bones,None,1,1,1
+Ben Plumm,None,1,1,1
+Benedar Belmore,Arryn,1,1,1
+Bessa (Winterfell),Stark,0,0,1
+Beth Cassel,Stark,0,0,1
+Bhakaz zo Loraq,None,1,1,1
+Big Boil,Wildling,1,1,1
+Big Walder Frey,None,1,1,1
+Black Bernarr,Night's Watch,1,1,1
+Black Walder Frey,None,1,1,1
+Blane,Night's Watch,1,1,1
+Bloodbeard,None,1,1,1
+Blue Bard,House Tyrell,1,1,1
+Bonifer Hasty,Lannister,1,1,1
+Borcas,Night's Watch,1,1,1
+Boremund Harlaw,Greyjoy,1,1,1
+Boros Blount,Baratheon,1,1,1
+Borroq,Wildling,1,1,1
+Bowen Marsh,Night's Watch,1,1,1
+Bran Stark,House Stark,1,1,1
+Brandon Norrey,Stark,1,1,1
+Brenett,None,1,1,1
+Brienne of Tarth,Stark,0,0,1
+Bronn,Lannister,1,1,1
+Brusco,None,1,1,1
+Bryen,None,1,1,1
+Brynden Rivers,House Targaryen,1,1,1
+Brynden Tully,House Tully,1,1,1
+Butterbumps,House Tyrell,1,1,1
+Byan Votyris,None,1,1,1
+Byron,Arryn,1,1,1
+Cadwyn,House Lannister,1,1,1
+Caleotte,House Martell,1,1,1
+Cellador,Night's Watch,1,1,1
+Cersei Frey,None,0,0,1
+Cersei Lannister,House Lannister,0,0,1
+Chataya,None,0,0,1
+Chella,Lannister,0,0,1
+Clayton Suggs,Baratheon,1,1,1
+Clement Piper,Tully,1,1,1
+Clydas,Night's Watch,1,1,1
+Coldhands,None,1,1,1
+Colemon,House Arryn,1,1,1
+Colen of Greenpools,House Baratheon,1,1,1
+Conwy,Night's Watch,1,1,1
+Corliss Penny,Baratheon,1,1,1
+Cotter Pyke,Night's Watch,1,1,1
+Cregan Karstark,Stark,1,1,1
+Creighton Longbough,None,1,1,1
+Cuger,Night's Watch,1,1,1
+Cutjack,None,1,1,1
+Daario Naharis,Targaryen,1,1,1
+Daemon Sand,Martell,1,1,1
+Daenerys Targaryen,House Targaryen,0,0,1
+Dagmer,House Greyjoy,1,1,1
+Dalla (Dragonstone),Baratheon,0,0,1
+Damon Dance-for-Me,None,1,1,1
+Damon Vypren,None,1,1,1
+Dancy,None,0,0,1
+Danwell Frey,None,1,1,1
+Daven Lannister,House Lannister,1,1,1
+Davos Seaworth,Baratheon,1,1,1
+Denys Drumm,Greyjoy,1,1,1
+Denys Mallister,Night's Watch,1,1,1
+Dermot,Baratheon,1,1,1
+Desmond Grell,Tully,1,1,1
+Devan Seaworth,Baratheon,1,1,1
+Deziel Dalt,Martell,1,1,1
+Dhazzar,None,1,1,1
+Dickon Manwoody,Martell,1,1,1
+Donnel Drumm,Greyjoy,1,1,1
+Donnel Haigh,None,1,1,1
+Donnel Hill,Night's Watch,1,1,1
+Donnel Waynwood,Tully,1,1,1
+Donnis,House Stark,1,1,1
+Donyse,None,0,0,1
+Doran Martell,Martell,1,1,1
+Draqaz,None,1,1,1
+Dunsen,None,1,1,1
+Dunstan Drumm,Greyjoy,1,1,1
+Duram Bar Emmon,Baratheon,1,1,1
+Dywen,Night's Watch,1,1,1
+Eddison Tollett,Night's Watch,1,1,1
+Edmure Tully,House Tully,1,1,1
+Edric Dayne,None,1,1,1
+Edric Storm,House Baratheon,1,1,1
+Edwyn Frey,None,1,1,1
+Eggon,None,1,1,1
+Elder Brother,None,1,1,1
+Eldred Codd,Greyjoy,1,1,1
+Eleyna Westerling,Stark,0,0,1
+Elinor Tyrell,Tyrell,0,0,1
+Ellaria Sand,Martell,0,0,1
+Elmar Frey,None,1,1,1
+Elyas Willum,Baratheon,1,1,1
+Emmon Frey,Lannister,1,1,1
+Emmond,Greyjoy,1,1,1
+Emrick,Night's Watch,1,1,1
+Endehar,Greyjoy,1,1,1
+Enger,House Tully,1,1,1
+Erik Ironmaker,Greyjoy,1,1,1
+Ermesande Hayford,None,0,0,1
+Erreck,None,1,1,1
+Erryk (Guard),House Tyrell,1,1,1
+Esgred,Greyjoy,1,1,1
+Ezzara,Targaryen,0,0,1
+Falia Flowers,Greyjoy,0,0,1
+Fat Walda Frey,None,0,0,1
+Flement Brax,Lannister,1,1,1
+Forley Prester,Lannister,1,1,1
+Fornio,Night's Watch,1,1,1
+Frenken,Lannister,1,1,1
+Frynne,Martell,0,0,1
+Gage,House Stark,1,1,1
+Galazza Galare,None,0,0,1
+Galbart Glover,Stark,1,1,1
+Garin (Orphan),Martell,1,1,1
+Gariss,House Stark,1,1,1
+Garlan Tyrell,House Tyrell,1,1,1
+Garrett Paege,Lannister,1,1,1
+Gawen Westerling,Stark,1,1,1
+Gendry,None,1,1,1
+Genna Lannister,Lannister,0,0,1
+Gerald Gower,Baratheon,1,1,1
+Gerold Dayne,Martell,1,1,1
+Gerris Drinkwater,Martell,1,1,1
+Ghael,None,1,1,1
+Ghost of High Heart,None,0,0,1
+Gillam,None,1,1,1
+Gilly,Wildling,0,0,1
+Gilwood Hunter,Arryn,1,1,1
+Glendon Hewett,Night's Watch,1,1,1
+Goady,Night's Watch,1,1,1
+Godric Borrell,None,1,1,1
+Godry Farring,Baratheon,1,1,1
+Godwyn,House Lannister,1,1,1
+Goghor,None,1,1,1
+Gormond Goodbrother,Greyjoy,1,1,1
+Gorold Goodbrother,Greyjoy,1,1,1
+Gran Goodbrother,Greyjoy,1,1,1
+Grazdan mo Eraz,None,1,1,1
+Grazdan zo Galare,None,1,1,1
+Grazdar zo Galare,None,1,1,1
+Grenn,Night's Watch,1,1,1
+Grey Worm,Targaryen,1,1,1
+Greydon Goodbrother,Greyjoy,1,1,1
+Grigg,Wildling,1,1,1
+Grisel,None,0,0,1
+Grunt,None,1,1,1
+Gueren,Night's Watch,1,1,1
+Gwin Goodbrother,Greyjoy,0,0,1
+Gylbert Farwynd,Greyjoy,1,1,1
+Gyles Farwynd,Greyjoy,1,1,1
+Gyles Grafton,Arryn,1,1,1
+Gysella Goodbrother,Greyjoy,0,0,1
+Halder,Night's Watch,1,1,1
+Haldon,House Targaryen,1,1,1
+Hallis Mollen,Stark,1,1,1
+Hallyne,Lannister,1,1,1
+Hareth (Mole's Town),Night's Watch,1,1,1
+Harmund Sharp,Greyjoy,1,1,1
+Harmune,Night's Watch,1,1,1
+Harras Harlaw,Greyjoy,1,1,1
+Harrion Karstark,Stark,1,1,1
+Harry Strickland,None,1,1,1
+Harwin,Stark,1,1,1
+Harwood Stout,Stark,1,1,1
+Harys Haigh,None,1,1,1
+Harys Swyft,Lannister,1,1,1
+Henly (Maester),None,1,1,1
+High Sparrow,None,1,1,1
+Hobb,Night's Watch,1,1,1
+Hobber Redwyne,Tyrell,1,1,1
+Hod,None,1,1,1
+Hodor,House Stark,1,1,1
+Holger,None,1,1,1
+Hop-Robin,Night's Watch,1,1,1
+Horas Redwyne,Tyrell,1,1,1
+Horton Redfort,Arryn,1,1,1
+Hosteen Frey,None,1,1,1
+Hot Pie,None,1,1,1
+Hother Umber,Stark,1,1,1
+Howd Wanderer,Wildling,1,1,1
+Hugo Vance,Tully,1,1,1
+Humfrey Swyft,Lannister,1,1,1
+Husband,None,1,1,1
+Illyrio Mopatis,House Targaryen,1,1,1
+Ilyn Payne,Lannister,1,1,1
+Iron Emmett,Night's Watch,1,1,1
+Irri,House Targaryen,0,0,1
+Ithoke,None,1,1,1
+Jack-Be-Lucky,None,1,1,1
+Jacks,House Stark,1,1,1
+Jaggot,None,1,1,1
+Jaime Lannister,Lannister,1,1,1
+Jalabhar Xho,None,1,1,1
+Janna Tyrell,Tyrell,0,0,1
+Jaqen H'ghar,None,1,1,1
+Jason Mallister,Stark,1,1,1
+Jeren,Night's Watch,1,1,1
+Jeyne Poole,Stark,0,0,1
+Jeyne Westerling,Stark,0,0,1
+Jhaqo,None,1,1,1
+Jhezane,None,0,0,1
+Jhiqui,House Targaryen,0,0,1
+Jhogo,House Targaryen,1,1,1
+Jocelyn Swyft,Lannister,0,0,1
+Jodge,House Lannister,1,1,1
+Jojen Reed,Stark,1,1,1
+Jommy,House Baratheon,1,1,1
+Jon Bettley,Lannister,1,1,1
+Jon Connington,Targaryen,1,1,1
+Jon Fossoway,Baratheon,1,1,1
+Jon Snow,Night's Watch,1,1,1
+Jon Umber (Greatjon),Stark,1,1,1
+Jonelle Cerwyn,Stark,0,0,1
+Jonos Bracken,Tully,1,1,1
+Jorah Mormont,Targaryen,1,1,1
+Joseran,Greyjoy,1,1,1
+Joseth,House Stark,1,1,1
+Josmyn Peckledon,Lannister,1,1,1
+Joss,None,1,1,1
+Joss Stilwood,Lannister,1,1,1
+Josua Willum,Baratheon,1,1,1
+Jothos Slynt,Lannister,1,1,1
+Joyeuse Erenford,None,0,0,1
+Justin Massey,Baratheon,1,1,1
+Jynessa Blackmont,Martell,0,0,1
+Karyl Vance,Tully,1,1,1
+Kedge Whiteye,Night's Watch,1,1,1
+Kella,None,0,0,1
+Kennos of Kayce,Lannister,1,1,1
+Ketter,Night's Watch,1,1,1
+Kezmya,None,0,0,1
+Khorane Sathmantes,None,1,1,1
+Kindly man,None,1,1,1
+Kojja Mo,None,0,0,1
+Lady of the Leaves,None,0,0,1
+Lambert Turnberry,Lannister,1,1,1
+Lamprey,Baratheon,1,1,1
+Lancel Lannister,Lannister,1,1,1
+Lanna (Happy Port),None,0,0,1
+Larra Blackmont,Martell,0,0,1
+Larraq,Targaryen,1,1,1
+Leathers,Night's Watch,1,1,1
+Left Hand Lew,Night's Watch,1,1,1
+Lem,None,1,1,1
+Lennocks,None,1,1,1
+Lenwood Tawney,Greyjoy,1,1,1
+Leo Tyrell,Tyrell,1,1,1
+Leona Woolfield,Stark,0,0,1
+Leonette Fossoway,Tyrell,0,0,1
+Lew,House Stark,1,1,1
+Lewis Lanster,None,1,1,1
+Lewys Lydden,Lannister,1,1,1
+Lewys Piper,Lannister,1,1,1
+Lollys Stokeworth,Lannister,0,0,1
+Loras Tyrell,Tyrell,1,1,1
+Lorcas,None,1,1,1
+Lorent Caswell,Baratheon,1,1,1
+Lothar Frey,None,1,1,1
+Lothor Brune,None,1,1,1
+Lucas Codd,Greyjoy,1,1,1
+Lucias Vypren,None,1,1,1
+Luco Prestayn,None,1,1,1
+Luke of Longtown,Night's Watch,1,1,1
+Lyle Crakehall,Lannister,1,1,1
+Lymond Goodbrook,Tully,1,1,1
+Lymond Lychester,Tully,1,1,1
+Lyn Corbray,Arryn,1,1,1
+Lyonel,None,1,1,1
+Lysono Maar,None,1,1,1
+Mace Tyrell,House Tyrell,1,1,1
+Mad Huntsman,None,1,1,1
+Maege Mormont,Stark,0,0,1
+Mago,None,1,1,1
+Malliard,Lannister,1,1,1
+Mallor,House Lannister,1,1,1
+Mance Rayder,Wildling,1,1,1
+Marei,None,0,0,1
+Margaery Tyrell,House Tyrell,0,0,1
+Maris,Wildling,0,0,1
+Marissa Frey,None,0,0,1
+Mariya Darry,None,0,0,1
+Mark Mullendore,Tully,1,1,1
+Marlon Manderly,Stark,1,1,1
+Maron Volmark,Greyjoy,1,1,1
+Marq Piper,Tully,1,1,1
+Martyn Rivers,None,1,1,1
+Marwyn,None,1,1,1
+Marwyn Belmore,Arryn,1,1,1
+Mathis Rowan,Lannister,1,1,1
+Mathos Mallarawan,None,1,1,1
+Matrice,Baratheon,0,0,1
+Matthar,Night's Watch,1,1,1
+Mebble,None,1,1,1
+Meera Reed,Stark,0,0,1
+Megga Tyrell,House Tyrell,0,0,1
+Meha,Wildling,0,0,1
+Mela,House Arryn,0,0,1
+Meldred Merlyn,Greyjoy,1,1,1
+Meliana,Stark,0,0,1
+Melisandre,Baratheon,0,0,1
+Mellei,House Martell,0,0,1
+Melly,None,0,0,1
+Meredyth Crane,Tyrell,0,0,1
+Meribald,None,1,1,1
+Merlon Crakehall,Lannister,1,1,1
+Meryn Trant,Lannister,1,1,1
+Mezzara,None,0,0,1
+Miklaz,None,1,1,1
+Missandei,House Targaryen,0,0,1
+Mollander,None,1,1,1
+Monster,Wildling,1,1,1
+Moon Boy,Baratheon,1,1,1
+Moqorro,Greyjoy,1,1,1
+Mord,House Arryn,1,1,1
+Moreo Tumitis,None,1,1,1
+Morgarth,None,1,1,1
+Morna White Mask,Wildling,0,0,1
+Moro,None,1,1,1
+Morra,House Martell,0,0,1
+Morros Slynt,Lannister,1,1,1
+Mors Manwoody,Martell,1,1,1
+Mors Umber,Stark,1,1,1
+Morton Waynwood,Arryn,1,1,1
+Mully,Night's Watch,1,1,1
+Munciter,Lannister,1,1,1
+Murch,Night's Watch,1,1,1
+Murch (Winterfell),House Stark,1,1,1
+Murenmure,Greyjoy,1,1,1
+Mya Stone,Arryn,0,0,1
+Myles,House Martell,1,1,1
+Myles Manwoody,Martell,1,1,1
+Myranda Royce,Arryn,0,0,1
+Myrcella Baratheon,Lannister,0,0,1
+Myria Jordayne,Martell,0,0,1
+Nage,None,1,1,1
+Nan,House Stark,0,0,1
+Narbert,None,1,1,1
+Nestor Royce,Arryn,1,1,1
+Norjen,Greyjoy,1,1,1
+Notch,None,1,1,1
+Nute,House Greyjoy,1,1,1
+Nymella Toland,Martell,0,0,1
+Nymeria Sand,House Martell,0,0,1
+Obara Sand,House Martell,0,0,1
+Olenna Redwyne,Tyrell,0,0,1
+Olyvar Frey,None,1,1,1
+Ondrew Locke,Stark,1,1,1
+Orton Merryweather,Lannister,1,1,1
+Osfryd Kettleblack,Lannister,1,1,1
+Osha,House Stark,0,0,1
+Osmund Kettleblack,Lannister,1,1,1
+Osney Kettleblack,Lannister,1,1,1
+Ossy,Arryn,1,1,1
+Oswell Kettleblack,None,1,1,1
+Othell Yarwyck,Night's Watch,1,1,1
+Owen,Night's Watch,1,1,1
+Palla,House Stark,0,0,1
+Parmen Crane,Baratheon,1,1,1
+Patchface,Baratheon,1,1,1
+Pate (Night's Watch),Night's Watch,1,1,1
+Pate (Old),None,1,1,1
+Patrek Mallister,Tully,1,1,1
+Paxter Redwyne,Tyrell,1,1,1
+Pello,None,1,1,1
+Penny,None,0,0,1
+Perros Blackmont,Martell,1,1,1
+Perwyn Frey,None,1,1,1
+Petyr Baelish,None,1,1,1
+Philip Foote,Lannister,1,1,1
+Pia,None,0,0,1
+Podrick Payne,Lannister,1,1,1
+Pono,None,1,1,1
+Porridge,Baratheon,1,1,1
+Pyat Pree,None,1,1,1
+Pylos,Baratheon,1,1,1
+Pypar,Night's Watch,1,1,1
+Qarl Shepherd,Greyjoy,1,1,1
+Qarl the Maid,Greyjoy,1,1,1
+Qezza,None,0,0,1
+Quaithe,None,0,0,1
+Quellon Humble,Greyjoy,1,1,1
+Quent,House Stark,1,1,1
+Quenten Banefort,Lannister,1,1,1
+Quhuru Mo,None,1,1,1
+Qyburn,Lannister,1,1,1
+Rafford,None,1,1,1
+Ragnor Pyke,House Greyjoy,1,1,1
+Ragwyle,Wildling,0,0,1
+Rakharo,House Targaryen,1,1,1
+Ralf Stonehouse,Greyjoy,1,1,1
+Ralf the Limper,Greyjoy,1,1,1
+Ramsay Snow,None,1,1,1
+Randyll Tarly,Tyrell,1,1,1
+Ravella Swann,Tully,0,0,1
+Raymar Royce,Arryn,1,1,1
+Raymund Frey,None,1,1,1
+Reysen,Night's Watch,1,1,1
+Reznak mo Reznak,None,1,1,1
+Rhogoro,None,1,1,1
+Ricasso,House Martell,1,1,1
+Richard Horpe,Baratheon,1,1,1
+Rickard Ryswell,Stark,1,1,1
+Rickon Stark,House Stark,1,1,1
+Rigney,None,1,1,1
+Robert Arryn,House Arryn,1,1,1
+Robett Glover,Stark,1,1,1
+Robin Moreland,Lannister,1,1,1
+Robin Ryger,Tully,1,1,1
+Rodrik Harlaw,Greyjoy,1,1,1
+Rodrik Ryswell,None,1,1,1
+Roger Hogg,Lannister,1,1,1
+Roger Ryswell,Stark,1,1,1
+Roland Crakehall (Lord),Lannister,1,1,1
+Rolder,House Lannister,1,1,1
+Rolfe,Greyjoy,1,1,1
+Rollam Westerling,Stark,1,1,1
+Rolly Duckfield,Targaryen,1,1,1
+Rolph Spicer,Lannister,1,1,1
+Romny Weaver,Greyjoy,1,1,1
+Ronald Storm,None,1,1,1
+Ronnel Harclay,Night's Watch,1,1,1
+Ronnet Connington,Baratheon,1,1,1
+Roose Bolton,Stark,1,1,1
+Roose Ryswell,None,1,1,1
+Roslin Frey,None,0,0,1
+Rudge,Night's Watch,1,1,1
+Rusty Flowers,Night's Watch,1,1,1
+Ryger Rivers,None,1,1,1
+Ryk,Wildling,1,1,1
+Rymolf Stormdrunk,House Greyjoy,1,1,1
+Ryon Allyrion,Martell,1,1,1
+Salladhor Saan,Baratheon,1,1,1
+Samwell Tarly,Night's Watch,1,1,1
+Sansa Stark,Stark,0,0,1
+Sarella Sand,House Martell,0,0,1
+Sarra Frey,None,0,0,1
+Satin,Night's Watch,1,1,1
+Sawwood,Night's Watch,1,1,1
+Sedgekins,None,1,1,1
+Selyse Florent,Baratheon,0,0,1
+Serra Frey,None,0,0,1
+Shadrich,None,1,1,1
+Shagga,Lannister,1,1,1
+Sharna,None,0,0,1
+Shireen Baratheon,Baratheon,0,0,1
+Shirei Frey,None,0,0,1
+Sigfry Stonetree,Greyjoy,1,1,1
+Skahaz mo Kandaq,None,1,1,1
+Skinner,None,1,1,1
+Sour Alyn,None,1,1,1
+Spare Boot,Night's Watch,1,1,1
+Spotted Cat,None,1,1,1
+Steelskin,None,1,1,1
+Steffon Swyft,Lannister,1,1,1
+Stonesnake,Night's Watch,1,1,1
+Stygg,House Greyjoy,1,1,1
+Sybassion,None,1,1,1
+Sybell Spicer,Lannister,0,0,1
+Sybelle Glover,Stark,0,0,1
+Sylva Santagar,Martell,0,0,1
+Symon Stripeback,Targaryen,1,1,1
+Symond Templeton,Arryn,1,1,1
+Taena of Myr,Lannister,0,0,1
+Tal Toraq,Targaryen,1,1,1
+Tallad,Lannister,1,1,1
+Tanton Fossoway,Baratheon,1,1,1
+Ternesio Terys,None,1,1,1
+Terrance Lynderly,Arryn,1,1,1
+The Red Lamb,House Targaryen,1,1,1
+Theo Frey,None,1,1,1
+Theodan Wells,Stark,1,1,1
+Theomore Lannister,None,1,1,1
+Theon Greyjoy,House Greyjoy,1,1,1
+Thoros,None,1,1,1
+Three Toes,None,1,1,1
+Three-Tooth,Greyjoy,0,0,1
+Tim Tangletongue,Night's Watch,1,1,1
+Timett,Lannister,1,1,1
+Timon,Baratheon,1,1,1
+Tobho Mott,None,1,1,1
+Todder,Night's Watch,1,1,1
+Tom of Sevenstreams,None,1,1,1
+Tormund,Wildling,1,1,1
+Torrek,None,1,1,1
+Tremond Gargalen,Martell,1,1,1
+Tristifer Botley,Greyjoy,1,1,1
+Triston Sunderland,Lannister,1,1,1
+Tuffleberry,None,1,1,1
+Tumberjon,Night's Watch,1,1,1
+Tumco Lho,Targaryen,1,1,1
+Tybero Istarion,None,1,1,1
+Tycho Nestoris,None,1,1,1
+Tyene Sand,House Martell,0,0,1
+Tyrion Lannister,Lannister,1,1,1
+Tyta Frey,None,0,0,1
+Tytos Blackwood,Tully,1,1,1
+Tytos Brax,Lannister,1,1,1
+Ulmer,Night's Watch,1,1,1
+Ulwyck Uller,Martell,1,1,1
+Umar,None,1,1,1
+Umfred,None,1,1,1
+Unella,None,1,1,1
+Urswyck,None,1,1,1
+Utherydes Wayn,Tully,1,1,1
+Val,Wildling,0,0,1
+Varys,Targaryen,1,1,1
+Victarion Greyjoy,House Greyjoy,1,1,1
+Vylarr,House Lannister,1,1,1
+Vyman,Tully,1,1,1
+Waif,None,0,0,1
+Walda Rivers (daughter of Aemon),None,0,0,1
+Walder Frey,None,1,1,1
+Walder Rivers,None,1,1,1
+Walton,None,1,1,1
+Wat (orphan),None,1,1,1
+Wat (sailor),None,1,1,1
+Watty,None,1,1,1
+Wayn (guard),House Stark,1,1,1
+Weasel,None,0,0,1
+Weeper,Wildling,1,1,1
+Wendello Qar Deeth,None,1,1,1
+Wex Pyke,Stark,1,1,1
+Whalen Frey,None,1,1,1
+Will (orphan),None,1,1,1
+William Mooton,Tully,1,1,1
+Willis Wode,Arryn,1,1,1
+Willit,Lannister,1,1,1
+Willum,Tully,1,1,1
+Wulfe,House Greyjoy,1,1,1
+Wun Weg Wun Dar Wun,Wildling,1,1,1
+Wylis Manderly,Stark,1,1,1
+Wylla Manderly,Stark,0,0,1
+Wyman Manderly,Stark,1,1,1
+Wynafryd Manderly,Stark,1,1,1
+Wynton Stout,Night's Watch,1,1,1
+Xaro Xhoan Daxos,None,1,1,1
+Xhondo,None,1,1,1
+Yandry,House Targaryen,1,1,1
+Ygon Farwynd,Greyjoy,1,1,1
+Yohn Farwynd,Greyjoy,1,1,1
+Yohn Royce,Arryn,1,1,1
+Ysilla,House Targaryen,1,1,1
+Zei,Stark,0,0,1
+Zollo,None,1,1,1
